@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.logo {
+  width: 100px;
+  padding-left: 20px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 20px;
+}
+
+.cards {
+  border-radius: 10px;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.cards > img {
+  border-radius: 5px;
+  width: 100%;
+}
+/*# sourceMappingURL=Demo.9e4c6fd2.css.map */
